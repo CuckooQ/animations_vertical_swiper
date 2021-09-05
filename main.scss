@@ -1,0 +1,36 @@
+body {
+  inline-size: 100vw;
+  block-size: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+.vertical-swiper {
+  inline-size: inherit;
+  block-size: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .swiper-container {
+    inline-size: 100%;
+    block-size: 62px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #333;
+
+    .swiper-slide {
+      block-size: 62px;
+      display: flex;
+      align-items: center;
+    }
+
+    .swiper-slide a {
+      color: #fff;
+      font-weight: bold;
+    }
+  }
+}
